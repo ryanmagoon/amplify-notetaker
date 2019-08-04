@@ -9,6 +9,13 @@
             "UnauthRoleName": "amplify-notetaker-dev-20190803190348-unauthRole",
             "StackName": "amplify-notetaker-dev-20190803190348",
             "StackId": "arn:aws:cloudformation:us-east-1:199045717839:stack/amplify-notetaker-dev-20190803190348/f3ee0570-b642-11e9-ad90-12a886f5f55e"
+        },
+        "categories": {
+            "auth": {
+                "amplifynotetaker9249517c": {
+                    "hostedUIProviderCreds": "[]"
+                }
+            }
         }
     }
 }

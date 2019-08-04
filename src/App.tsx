@@ -1,8 +1,8 @@
 import React from 'react'
-import logo from './logo.svg'
+import { withAuthenticator } from 'aws-amplify-react'
 
 const App: React.FC = () => {
   return <div>App</div>
 }
 
-export default App
+export default withAuthenticator(App)

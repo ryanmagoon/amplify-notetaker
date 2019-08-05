@@ -53,21 +53,33 @@
             "Arn"
         ]
     },
-    "useDefault": "defaultSocial",
+    "useDefault": "default",
     "hostedUI": true,
     "usernameAttributes": [
         "email"
     ],
     "additionalQuestions": [],
-    "hostedUIDomainName": "",
     "newCallbackURLs": [
         "https://localhost:3000/signin/"
     ],
     "newLogoutURLs": [
         "https://localhost:3000/signout/"
     ],
-    "authProvidersUserPool": [],
-    "hostedUIProviderMeta": "[]",
-    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://localhost:3000/signin/\"],\"LogoutURLs\":[\"https://localhost:3000/signout/\"]}",
-    "dependsOn": []
+    "dependsOn": [],
+    "AllowedOAuthFlows": [
+        "code"
+    ],
+    "AllowedOAuthScopes": [
+        "phone",
+        "email",
+        "openid",
+        "profile",
+        "aws.cognito.signin.user.admin"
+    ],
+    "CallbackURLs": [
+        "https://localhost:3000/signin/"
+    ],
+    "LogoutURLs": [
+        "https://localhost:3000/signout/"
+    ]
 }
